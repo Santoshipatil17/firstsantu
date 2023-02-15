@@ -1,0 +1,18 @@
+class Trapezoid
+{
+static void area()
+{
+int h=8;
+int a=4;
+int b=4;
+double result=((a+b)*h)/2.0;
+System.out.println(result);
+}
+}
+class Sample2
+{
+public static void main(String[] args)
+{
+Trapezoid.area();
+}
+}

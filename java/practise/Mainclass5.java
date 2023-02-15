@@ -1,0 +1,23 @@
+class Demo
+{
+int a=10;
+}
+class Sample extends Demo
+{
+void disp()
+	{
+System.out.println("hi");
+}
+}
+class Mainclass5
+{
+public static void main(String[] args)
+{
+Demo d=new Sample();
+Demo d1=(Demo)new Sample();
+System.out.println(d.a);
+Sample s=(Sample)d;
+System.out.println(s.a);
+s.disp();
+}
+}

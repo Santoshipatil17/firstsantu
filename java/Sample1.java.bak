@@ -1,0 +1,14 @@
+class Sample1
+{
+static int area()
+{
+int a=7;
+int area=a*a;
+return area;
+}
+public static void main(String[] args)
+{
+int x=area();
+System.out.println(area);
+}
+}

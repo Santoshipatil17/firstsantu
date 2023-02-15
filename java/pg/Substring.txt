@@ -1,0 +1,6 @@
+class Substring
+{
+public static void main(String[] args)
+String str="hey java are you fine";
+String str1=str.substring(0,8);
+}

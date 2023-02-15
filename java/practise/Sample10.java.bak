@@ -1,0 +1,14 @@
+class Sample10
+{
+void area(int r)
+{
+final double pi=3.142;
+double res=pi*r*r;
+System.out.println(res);
+}
+public static void main(String[] args)
+{
+Sample10 s=new Sample10();
+s.area(7);
+}
+}

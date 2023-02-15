@@ -1,0 +1,12 @@
+class Sector
+{
+static void area(int r,double t)
+{
+double area=1/2*r*r*t;
+System.out.println("area of sector is" +area);
+}
+public static void main(String[] args)
+{
+area(3,30.5);
+}
+}

@@ -1,0 +1,5 @@
+class n	aru{
+public static void main(String ... args){
+System.out.println("helleo world");
+}
+}
